@@ -14,6 +14,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello <% out.print( usr.getFirstname() + " " + usr.getLastname() ); %>!</h1>
+        <h1>Hello <% out.print( usr.getFirstname() + " " + usr.getLastname() ); %>!<br> <% out.print( usr.getEmail()); %></h1>
     </body>
 </html>
